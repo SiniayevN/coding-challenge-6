@@ -24,3 +24,10 @@ class Manager extends Employee {
   }
 }
 //step 3 done
+
+const emp1 = new Employee("Alice", "Marketing");
+const emp2 = new Employee("David", "IT");
+const emp3 = new Employee("Sophia", "Human Resources");
+
+const mgr1 = new Manager("Artem", "Finance", 4);
+const mgr2 = new Manager("Elena", "Sales", 6);
